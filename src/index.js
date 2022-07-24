@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { Stage, Layer, Rect } from "react-konva";
-import RTransformer from "./rtransformer";
+import RTransformer from "./rtransformer.ts";
 
 const Rectangle = ({ shapeProps, isSelected, onSelect, onChange }) => {
   const shapeRef = React.useRef();
